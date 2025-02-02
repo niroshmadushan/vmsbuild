@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/app/static/css/main.2a9a26f2.css",
+    "main.js": "/app/static/js/main.a012f9ce.js",
+    "static/media/homepic.png": "/app/static/media/homepic.3d94f96348bd47df8027.png",
+    "static/media/informationliteracy-scaled-removebg-preview.png": "/app/static/media/informationliteracy-scaled-removebg-preview.2a68f55e95d37e9dfd43.png",
+    "index.html": "/app/index.html",
+    "main.2a9a26f2.css.map": "/app/static/css/main.2a9a26f2.css.map",
+    "main.a012f9ce.js.map": "/app/static/js/main.a012f9ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a9a26f2.css",
+    "static/js/main.a012f9ce.js"
+  ]
+}
