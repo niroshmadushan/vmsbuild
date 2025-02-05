@@ -6,5 +6,23 @@
         "rewrite": "/index.html"
       }
     ]
-  }
+  },
+  "routes": [
+    {
+      "route": "/app/admin",
+      "methods": [
+        "get",
+        "head",
+        "post",
+        "put",
+        "delete",
+        "connect",
+        "options",
+        "trace",
+        "patch"
+      ],
+      "rewrite": "/app",
+      "statusCode": 404
+    }
+  ]
 }
