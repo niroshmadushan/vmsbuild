@@ -6,5 +6,12 @@
         "rewrite": "/index.html"
       }
     ]
-  }
+  },
+  "routes": [
+    {
+      "route": "/*",
+      "rewrite": "/index.html",
+      "statusCode": 404
+    }
+  ]
 }
