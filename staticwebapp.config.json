@@ -11,7 +11,7 @@
     {
       "route": "/login",
       "rewrite": "/index.html",
-      "statusCode": 404
+      "statusCode": 200
     }
   ]
 }
