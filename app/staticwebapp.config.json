@@ -2,8 +2,8 @@
   "routing": {
     "routes": [
       {
-        "route": "/{*any}",
-        "rewrite": "/index.html"
+        "route": "/app/*",
+        "rewrite": "/app/index.html"
       }
     ]
   }
