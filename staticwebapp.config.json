@@ -1,1 +1,13 @@
-{}
+{
+  "routes": [
+    {
+      "route": "/app/admin",
+      "methods": [
+        "get"
+      ],
+      "rewrite": "/app",
+      "redirect": "/app",
+      "statusCode": 404
+    }
+  ]
+}
