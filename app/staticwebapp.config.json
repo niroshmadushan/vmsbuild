@@ -1,9 +1,10 @@
 {
+  "routing": {
     "routes": [
       {
-        "route": "/app/*",
-        "serve": "/index.html",
-        "statusCode": 200
+        "route": "/{*any}",
+        "rewrite": "/index.html"
       }
     ]
   }
+}
