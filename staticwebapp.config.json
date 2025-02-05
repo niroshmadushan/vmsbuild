@@ -1,9 +1,0 @@
-{
-  "routes": [
-    {
-      "route": "/app/admin",
-      "rewrite": "/app",
-      "statusCode": 404
-    }
-  ]
-}
