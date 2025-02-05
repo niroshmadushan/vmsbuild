@@ -9,7 +9,7 @@
   },
   "routes": [
     {
-      "route": "/*",
+      "route": "/login",
       "rewrite": "/index.html",
       "statusCode": 404
     }
