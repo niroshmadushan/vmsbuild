@@ -1,13 +1,10 @@
 {
-  "routes": [
-    {
-      "route": "/app/admin",
-      "methods": [
-        "get"
-      ],
-      "rewrite": "/app",
-      "redirect": "/app",
-      "statusCode": 404
-    }
-  ]
+  "routing": {
+    "routes": [
+      {
+        "route": "/*}",
+        "rewrite": "/index.html"
+      }
+    ]
+  }
 }
