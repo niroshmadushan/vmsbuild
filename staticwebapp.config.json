@@ -6,11 +6,5 @@
         "rewrite": "/index.html"
       }
     ]
-  },
-  "routes": [
-    {
-      "route": "/*",
-      "rewrite": "/index.html"
-    }
-  ]
+  }
 }
