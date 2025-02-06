@@ -1,29 +1,17 @@
 {
-  "routes": [
-    {
-      "route": "/",
-      "rewrite": "/index.html"
+  "responseOverrides": {
+    "400": {
+      "rewrite": "/invalid-invitation-error.html"
     },
-    {
-      "route": "/login",
-      "rewrite": "/index.html"
+    "401": {
+      "statusCode": 302,
+      "redirect": "/login"
     },
-    {
-      "route": "/admin",
-      "rewrite": "/index.html"
+    "403": {
+      "rewrite": "/custom-forbidden-page.html"
     },
-    {
-      "route": "/*",
+    "404": {
       "rewrite": "/index.html"
     }
-  ],
-  "navigationFallback": {
-    "rewrite": "/index.html",
-    "exclude": ["/static/*", "/assets/*"]
-  },
-  "globalHeaders": {
-    "Cache-Control": "public, max-age=31536000",
-    "X-Frame-Options": "DENY",
-    "X-Content-Type-Options": "nosniff"
   }
 }
